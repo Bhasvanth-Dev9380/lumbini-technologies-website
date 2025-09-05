@@ -1,6 +1,8 @@
 import React from 'react';
 
 const SkillArc = () => {
+
+  const src = `${import.meta.env.BASE_URL}SkillArc_main_web-main/index.html`;
   return (
     <div style={{ 
       width: '100vw', 
@@ -12,7 +14,7 @@ const SkillArc = () => {
       backgroundColor: 'white'
     }}>
       <iframe
-        src="/SkillArc_main_web-main/index.html"
+        src={src}
         style={{
           width: '100%',
           height: '100%',
