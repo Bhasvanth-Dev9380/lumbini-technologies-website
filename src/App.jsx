@@ -70,11 +70,11 @@ const PageWrapper = ({ children }) => (
 // Main App Component
 const App = () => {
   return (
-    <Router>
+    <Router basename="/lumbini-technologies-website">
       <Navbar />
       <AnimatedRoutes />
     </Router>
   );
-}
+};
 
 export default App;
