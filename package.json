@@ -1,8 +1,9 @@
 {
-  "name": "lumbini website",
-  "homepage": "https://bhasvanth-dev9380.github.io/lumbini-technologies-website/",
+  "name": "navbar",
+  "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "./",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
